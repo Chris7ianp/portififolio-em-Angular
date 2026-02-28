@@ -1,0 +1,60 @@
+@use 'sass:color';
+
+:root {
+  --bg-color: #050816;
+  --bg-elevated: #0b1120;
+  --accent: #3b82f6;
+  --accent-soft: #1d4ed8;
+  --accent-green: #a3e635;
+  --text-primary: #e5e7eb;
+  --text-muted: #9ca3af;
+  --border-subtle: rgba(148, 163, 184, 0.25);
+  --radius-lg: 18px;
+  --radius-full: 999px;
+  --shadow-soft: 0 24px 80px rgba(15, 23, 42, 0.85);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top left, #1f2937 0, #020617 42%, #020617 100%);
+  color: var(--text-primary);
+}
+
+body,
+button {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: color.scale(#3b82f6, $lightness: 20%);
+  color: #0b1120;
+}

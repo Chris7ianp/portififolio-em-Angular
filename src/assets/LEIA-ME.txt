@@ -1,0 +1,14 @@
+COMO ATIVAR O DOWNLOAD DO CURRÍCULO
+====================================
+
+1. Coloque seu currículo em PDF nesta pasta (src/assets/).
+
+2. O arquivo DEVE se chamar exatamente:
+   Christian-Silva-Desenvolvedor.pdf
+
+3. Se o seu PDF tiver outro nome, renomeie para:
+   Christian-Silva-Desenvolvedor.pdf
+
+4. Reinicie o servidor (ng serve) se ele estiver rodando.
+
+Depois disso, o botão "Baixar currículo" no site funcionará.
